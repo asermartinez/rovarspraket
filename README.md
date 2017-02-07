@@ -1,5 +1,5 @@
-Taken from: https://www.reddit.com/r/dailyprogrammer/comments/341c03/20150427_ch
-allenge_212_easy_r%C 3%B6varspr%C3%A5ket/ As programming  exercise
+Taken from: https://www.reddit.com/r/dailyprogrammer/comments/341c03/20150427_challenge_212_easy_r%C 3%B6varspr%C3%A5ket/
+As programming  exercise
 
 "When we Swedes are young, we are taught a SUPER-SECRET language that only kids
 know, so we can hide secrets from our confused parents.  This language is known
