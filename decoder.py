@@ -5,18 +5,15 @@ word = raw_input("\nWrite a word/sentence to translate to Rövarspråket: ")
 consonants = "BbCcDdFfGgHhJjKkLlMmNnPpQqRrSsTtVvWwXxYyZz"
 
 
-def translate(word):  # Rövarspråket secret language translator
-    new_word = []
-    for x in word:
-        if x in consonants and x.islower():
-            new_word.append(x + "o" + x)
-        elif x in consonants and not x.islower():
-            new_word.append(x + "O" + x if word[1].isupper() else x + "o" + x.lower())
+def decode(word):
+    new_word = ""
+    index = 0
+    while index in range(len(word)):
+        new_word += word[index]
+        if word[index] in consonants:
+            index += 3
         else:
-            new_word.append(x)
-    new_word = "".join(new_word)
-    return new_word
+            index += 1
+    print new_word
 
-print "\nTranslating '%s' to Rövarspråket: " % word,
-
-print translate(word)
+decode(word)
