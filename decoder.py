@@ -1,6 +1,6 @@
 # coding=utf-8
 
-word = raw_input("\nWrite a word/sentence to translate to Rövarspråket: ")
+word = raw_input("\nWrite a word/sentence to decode from Rövarspråket secret language: ")
 
 consonants = "BbCcDdFfGgHhJjKkLlMmNnPpQqRrSsTtVvWwXxYyZz"
 
