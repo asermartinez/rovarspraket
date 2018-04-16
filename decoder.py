@@ -1,6 +1,6 @@
 # coding=utf-8
 
-word = raw_input("\nWrite a word/sentence to decode from Rövarspråket secret language: ")
+word = input("\nWrite a word/sentence to decode from Rövarspråket secret language: ")
 
 consonants = "BbCcDdFfGgHhJjKkLlMmNnPpQqRrSsTtVvWwXxYyZz"
 
@@ -14,6 +14,7 @@ def decode(word):
             index += 3
         else:
             index += 1
-    print new_word
+    print(new_word)
+
 
 decode(word)

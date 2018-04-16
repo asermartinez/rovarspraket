@@ -1,6 +1,6 @@
 # coding=utf-8
 
-word = raw_input("\nWrite a word/sentence to translate to Rövarspråket: ")
+word = input("\nWrite a word/sentence to translate to Rövarspråket: ")
 
 consonants = "BbCcDdFfGgHhJjKkLlMmNnPpQqRrSsTtVvWwXxYyZz"
 
@@ -17,6 +17,5 @@ def translate(word):  # Rövarspråket secret language translator
     new_word = "".join(new_word)
     return new_word
 
-print "\nTranslating '%s' to Rövarspråket: " % word,
 
-print translate(word)
+print("\nTranslating {} to Rövarspråket: {}".format(word, translate(word)))
